@@ -1,10 +1,5 @@
-# -*- coding: utf-8 -*-
-# تطبيق Streamlit للبحث عن العناصر الكيميائية
-# للتشغيل محلياً:
-# 1) تثبيت المكتبة: pip install streamlit
-# 2) التشغيل: streamlit run app.py
 
-import streamlit as st
+
 
 # -----------------------------
 # قاعدة بيانات العناصر (تقدر توسّعها)
@@ -128,3 +123,4 @@ if show_table:
         caption="الجدول الدوري للعناصر",
         use_container_width=True
     )
+
